@@ -3,7 +3,7 @@ import os, sys, glob
 replace_file_name = "allreplace"
 
 f = open(replace_file_name, 'r')
-replace_table = f.readlines()
+replace_table = map(lambda x : x.rstrip(), f.readlines())
 f.close()
 
 replace_src = []
@@ -22,9 +22,11 @@ for htmlname in glob.glob('*.html'):
 
 	for i in xrange(len(html)):
 		for j in xrange(len(replace_src)):
-			if html[i] == replace_src[j]:
+			pos = html[i].find(replace_src[j])
+			
+			if pos != -1:
 				print 'Line %d hit.' % i
-				html[i] = replace_dest[j]
+				html[i] = html[i].replace(replace_src[j], replace_dest[j])
 
 	f = open(htmlname, 'w')
 	f.writelines(html)
