@@ -25,7 +25,7 @@ for htmlname in glob.glob('*.html'):
 			pos = html[i].find(replace_src[j])
 			
 			if pos != -1:
-				print 'Line %d hit.' % i
+				print 'Line %d hit, role %d.' % (i, j*2)
 				html[i] = html[i].replace(replace_src[j], replace_dest[j])
 
 	f = open(htmlname, 'w')
