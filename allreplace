@@ -54,3 +54,5 @@ static/allthemes-view.css
 <div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p>© 2013-2014 ICML | International Conference on Machine Learning</p></div>
  <!-- <div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p><a class="sites-system-link" href="https://sites.google.com/site/icmldivergence/system/app/pages/reportAbuse" target="_blank">Report Abuse</a>|<a class="sites-system-link" href="https://sites.google.com/site/icmldivergence/system/app/pages/removeAccess" target="_blank">Remove Access</a>|<span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="../../index.html">Google Sites</a></b></p></div>  -->
 <div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter"><p>© 2013-2014 ICML | International Conference on Machine Learning</p></div>
+https://ssl.gstatic.com/sites/p/eaa1a0/system/app/themes/simplywhite/standard-css-simplywhite-ltr-ltr.css
+static/standard-css-simplywhite-ltr-ltr.css
